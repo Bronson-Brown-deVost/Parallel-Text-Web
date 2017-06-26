@@ -1,0 +1,149 @@
+html, body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	-webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
+
+@font-face {
+    font-family: Hebrew;
+    src: local('SBL Hebrew');
+    unicode-range: U+0590-05EA;
+}
+@font-face {
+    font-family: Greek;
+    src: local('SBL Greek');
+    unicode-range: U+0370-03FF;
+}
+@font-face {
+    font-family: Ethiopic;
+    src: local('Abyssinica SIL');
+    unicode-range: U+1200-139F;
+}
+
+#menu {
+    position: relative;
+    background-color: #513200;
+    float: left;
+    width: 100%;
+    height: 20px;
+    overflow: auto;
+}
+
+#textview{
+    position: relative;
+    background-color: #f9eacc;
+    font-family: Hebrew, Greek, Ethiopic;
+    float: left;
+    width: 100%;
+    height: calc(80vh - 20px);
+    overflow-y: auto;
+    overflow-wrap: normal; 
+}
+
+#verseview{
+    position: relative;
+    background-color: lightpink;
+    font-family: Hebrew, Greek, Ethiopic;
+    float: left;
+    width: 100%;
+    height: 20vh;
+    overflow: auto;
+}
+
+.ignore{
+    cursor: default;
+    pointer-events: none;
+}
+
+.verse_word{
+    display: inline-block;
+    margin-left: 6pt;
+    margin-right: 6pt;
+    /*margin-top: 6pt;*/
+    /*margin-bottom: 12pt;*/
+    cursor: default;
+}
+
+.verse_word_upper_info {
+    /*font-size: 36pt;
+    margin-top: 0pt;
+    margin-bottom: 6pt;
+    margin: auto;
+    text-align: top;
+    vertical-align: top;*/
+    width: 100%;
+    text-align: center;
+    /*height: 8px;*/
+}
+
+.verse_vocable {
+    font-size: 18pt;
+    /*margin-bottom: -12pt;*/
+}
+
+.verse_vocable:hover {
+    background: lightblue;
+    border-radius: 3px;
+}
+.verse_vocable:focus {
+    background: lightgreen;
+    border-radius: 3px;
+}
+
+.verse_word_lower_info {
+    font-size: 8pt;
+    /*margin-top: 0pt;
+    margin-bottom: 0pt;*/
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    height: 18pt;
+}
+
+.word_selected {
+    background: lightcoral;
+    border-radius: 2px;
+}
+
+.verse_heading {
+    font-size: 18pt;
+    color: lightcoral;
+}
+
+.word_info {
+    font-size: 18pt;
+    vertical-align: middle;
+    color: blue;
+}
+
+.verse_word_id {
+    font-size: 8pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    /*margin-top: 0pt;
+    margin-bottom: 0pt;*/
+}
+
+.link_vocable {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+    display: inline-block;
+}
+
+#svgContainer {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+path {
+    opacity: 0.5;
+}
