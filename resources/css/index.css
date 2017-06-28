@@ -13,7 +13,8 @@ html, body {
 }
 @font-face {
     font-family: Greek;
-    src: local('SBL Greek');
+    /*src: local('SBL Greek');*/
+    src: local('SILDoulosIPA');
     unicode-range: U+0370-03FF;
 }
 @font-face {
