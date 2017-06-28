@@ -37,7 +37,7 @@ html, body {
     font-family: Hebrew, Greek, Ethiopic;
     float: left;
     width: 100%;
-    height: calc(80vh - 20px);
+    height: calc(70vh - 20px);
     overflow-y: auto;
     overflow-wrap: normal; 
 }
@@ -48,7 +48,7 @@ html, body {
     font-family: Hebrew, Greek, Ethiopic;
     float: left;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     overflow: auto;
 }
 
