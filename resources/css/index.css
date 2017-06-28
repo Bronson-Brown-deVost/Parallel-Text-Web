@@ -39,7 +39,7 @@ html, body {
     width: 100%;
     height: calc(70vh - 20px);
     overflow-y: auto;
-    overflow-wrap: normal; 
+    overflow-wrap: normal;
 }
 
 #verseview{
@@ -67,20 +67,12 @@ html, body {
 }
 
 .verse_word_upper_info {
-    /*font-size: 36pt;
-    margin-top: 0pt;
-    margin-bottom: 6pt;
-    margin: auto;
-    text-align: top;
-    vertical-align: top;*/
     width: 100%;
     text-align: center;
-    /*height: 8px;*/
 }
 
 .verse_vocable {
-    font-size: 18pt;
-    /*margin-bottom: -12pt;*/
+    font-size: 12pt;
 }
 
 .verse_vocable:hover {
@@ -93,14 +85,12 @@ html, body {
 }
 
 .verse_word_lower_info {
-    font-size: 8pt;
-    /*margin-top: 0pt;
-    margin-bottom: 0pt;*/
+    font-size: 7pt;
     margin: auto;
     text-align: center;
     width: 100%;
     vertical-align: top;
-    height: 18pt;
+    height: 12pt;
 }
 
 .word_selected {
@@ -109,27 +99,25 @@ html, body {
 }
 
 .verse_heading {
-    font-size: 18pt;
+    font-size: 12pt;
     color: lightcoral;
 }
 
 .word_info {
-    font-size: 18pt;
+    font-size: 12pt;
     vertical-align: middle;
     color: blue;
 }
 
 .verse_word_id {
-    font-size: 8pt;
+    font-size: 7pt;
     margin-left: 0pt;
     margin-right: 0pt;
-    /*margin-top: 0pt;
-    margin-bottom: 0pt;*/
 }
 
 .link_vocable {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     -webkit-border-radius: 50%;
     -moz-border-radius:  50%;
     border-radius:  50%;
