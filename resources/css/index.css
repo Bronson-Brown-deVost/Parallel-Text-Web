@@ -41,6 +41,7 @@ html, body {
     height: calc(70vh - 20px);
     overflow-y: auto;
     overflow-wrap: normal;
+    -webkit-overflow-scrolling: touch;
 }
 
 #verseview{
@@ -51,6 +52,7 @@ html, body {
     width: 100%;
     height: 30vh;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .ignore{
